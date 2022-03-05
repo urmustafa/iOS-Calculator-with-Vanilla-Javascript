@@ -1,0 +1,76 @@
+div.calculator{
+    background-color: black;
+    width: 320px;
+    height: 620px;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+table button{
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    background: #555;
+    color: white;
+    font-size: 2em;
+    line-height: 0.75em;
+    text-align: center;
+}
+button:active{
+    background: #222;
+}
+
+button.operator{
+    background-color: rgb(253, 166, 4);
+}
+button.extraOperator{
+    background-color: rgb(216, 211, 211);
+    color: black;
+}
+button.operator:active{
+    background-color: rgb(97, 68, 15);
+}
+button.extraOperator:active{
+    background-color: rgb(97, 92, 92);
+}
+input.anst{
+    margin: 1px;
+    background: rgb(0, 0, 0);
+    border: none;
+    height: 40px;
+    width: 95%;
+    color: white;
+    resize: none;
+    outline: none;
+    font-size: 2em;
+    font-weight: 400px;
+    text-align: right;
+    padding-top: 50px;
+    line-height: 100px;
+    
+}
+input.ans{
+    margin: 7px;
+    background: rgb(0, 0, 0);
+    border: none;
+    height: 50px;
+    width: 95%;
+    color: white;
+    resize: none;
+    outline: none;
+    font-size: 4em;
+    font-weight: 400px;
+    text-align: right;
+    padding-top: 50px;
+    line-height: 100px;
+    
+}
+button.zero{
+    width: 145px;
+    border-radius: 35px;
+    text-align: left;
+    padding-left: 17px;
+}
